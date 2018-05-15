@@ -46,6 +46,9 @@ class MainActivity : AppCompatActivity() {
         bu_next_page.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+        bu_remote.setOnClickListener {
+            startActivity(Intent(this, Main2Activity::class.java))
+        }
     }
 
     private fun unBindTestService() {

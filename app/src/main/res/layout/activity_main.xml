@@ -40,4 +40,10 @@
         android:layout_height="wrap_content"
         android:text="去下一个页面" />
 
+    <Button
+        android:id="@+id/bu_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="远程服务" />
+
 </LinearLayout>

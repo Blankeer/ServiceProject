@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".Main2Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/bu_messenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messenger连接" />
+
+    <Button
+        android:id="@+id/bu_send_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send random msg" />
+
+    <Button
+        android:id="@+id/bu_unbind_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unBind" />
+</LinearLayout>

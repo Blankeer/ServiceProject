@@ -13,6 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Messenger连接" />
+    <Button
+        android:id="@+id/bu_aidl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIDL 连接" />
 
     <Button
         android:id="@+id/bu_send_msg"

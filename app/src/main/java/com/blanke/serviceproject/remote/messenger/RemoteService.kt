@@ -24,7 +24,7 @@ class RemoteService : Service() {
                         putString("msg", "reply: $text")
                     }
                     Log.d("RemoteService", "回复客户端消息")
-                    msg.replyTo.send(replyMsg)
+                    msg.replyTo?.send(replyMsg)
                 }
             }
         }
